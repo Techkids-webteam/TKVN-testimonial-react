@@ -38,9 +38,10 @@ var AuthorBox = React.createClass({
     },
     // automatically called by React after a component is rendered for the 1st time
     componentDidMount: function() {
-        this.loadCommentsFromServer();
-        setInterval(this.loadCommentsFromServer, this.props.pollInterval);
+        setInterval(this.loadCommentsFromServer, 100);
     },
+
+
     render: function(){
         return (
             <div>
@@ -52,12 +53,17 @@ var AuthorBox = React.createClass({
 
 var AuthorList = React.createClass({
     render: function(){
+        var comments = this.props.data.map(function(comment, index){
+            if(index == 0){
+                return <ItemActive key={comment.id} author={comment.author}>{comment.text}</ItemActive>
+            }
+            else{
+                return <Item key={comment.id} author={comment.author}>{comment.text}</Item>
+            }
+        });
         return (
             <div>
-                <ItemActive author={this.props.data[0].author}>{this.props.data[0].text}</ItemActive>
-                <Item author={this.props.data[1].author}>{this.props.data[1].text}</Item>
-                <Item author={this.props.data[2].author}>{this.props.data[2].text}</Item>
-                <Item author={this.props.data[3].author}>{this.props.data[3].text}</Item>
+                {comments}
             </div>
         );
     }
@@ -97,10 +103,33 @@ var Item = React.createClass({
 
 
 var AuthorBoxCarouselVersion = React.createClass({
+    // refresh front-end view data without refreshing the whole page.
+    loadCommentsFromServer: function () {
+        $.ajax({
+            url: this.props.url,
+            dataType: 'json',
+            cache: false,
+            success: function(data){
+                this.setState({data: data});
+            }.bind(this),
+            error: function(xhr, status, err) {
+                console.error(this.props.url, status, err.toString());
+            }.bind(this)
+        });
+    },
+    // initializing state (when state updates, the component re-renders itself)
+    getInitialState: function() {
+        return {data: []};
+    },
+    // automatically called by React after a component is rendered for the 1st time
+    componentDidMount: function() {
+        setInterval(this.loadCommentsFromServer, 100);
+    },
+
     render: function(){
         return (
-            <div className = "AuthorBoxCarouselVersion">
-                <AuthorListCarouselVersion data={this.props.data}/>
+            <div>
+                <AuthorListCarouselVersion data={this.state.data}/>
             </div>
         );
     }
@@ -108,28 +137,51 @@ var AuthorBoxCarouselVersion = React.createClass({
 
 var AuthorListCarouselVersion = React.createClass({
     render: function(){
+        var comments = this.props.data.map(function(comment, index){
+            if (index == 0){
+                return <ItemActive key={comment.id} author={comment.author}>{comment.text}</ItemActive>
+            }
+            else{
+                return <Item key={comment.id} author={comment.author}>{comment.text}</Item>
+            }
+        });
         return (
             <div id="myCarousel_MAD" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner" role="listbox">
-                    <ItemActive author={this.props.data[0].author}>{this.props.data[0].text}</ItemActive>
-                    <Item author={this.props.data[1].author}>{this.props.data[1].text}</Item>
-                    <Item author={this.props.data[2].author}>{this.props.data[2].text}</Item>
-                    <Item author={this.props.data[3].author}>{this.props.data[3].text}</Item>
+                    {comments}
                 </div>
             </div>
         );
     }
 });
 
-ReactDOM.render(<AuthorBox url="api/comment" pollInterval={2000} />, document.querySelector('.authorMAD'));
-ReactDOM.render(<AuthorBox data={dataWeb}/>, document.querySelector('.authorWeb'));
-ReactDOM.render(<AuthorBox data={dataC4E}/>, document.querySelector('.authorC4E'));
+var AuthorList = React.createClass({
+    render: function(){
+        var comments = this.props.data.map(function(comment, index){
+            if(index == 0){
+                return <ItemActive key={comment.id} author={comment.author}>{comment.text}</ItemActive>
+            }
+            else{
+                return <Item key={comment.id} author={comment.author}>{comment.text}</Item>
+            }
+        });
+        return (
+            <div>
+                {comments}
+            </div>
+        );
+    }
+});
 
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataMAD}/>, document.querySelector('.authorMAD-medium'));
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataWeb}/>, document.querySelector('.authorWeb-medium'));
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataC4E}/>, document.querySelector('.authorC4E-medium'));
+ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorMAD'));
+ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorWeb'));
+ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorC4E'));
+
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorMAD-medium'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorWeb-medium'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorC4E-medium'));
 
 
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataMAD}/>, document.querySelector('.authorMAD-small'));
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataWeb}/>, document.querySelector('.authorWeb-small'));
-ReactDOM.render(<AuthorBoxCarouselVersion data={dataC4E}/>, document.querySelector('.authorC4E-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorMAD-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorWeb-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorC4E-small'));
