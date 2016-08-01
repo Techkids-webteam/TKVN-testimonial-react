@@ -101,6 +101,7 @@
 .find_us{
     background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     color: #f8f8f8;
     height: 69vh;
     text-align: center;
@@ -146,7 +147,7 @@ footer.footer{
 	font-size: 1.4rem;
 	background-color: white;
 	padding-bottom: 120px;
-	padding-top: 575px;
+	padding-top: 780px;
 }
 
 .footer_logo{

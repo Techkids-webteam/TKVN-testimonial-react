@@ -16,7 +16,7 @@ body{
 
 .navbar-header img{
     max-width: 50%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 .dropdown:hover .dropdown-menu>li a:hover{
