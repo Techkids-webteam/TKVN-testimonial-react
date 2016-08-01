@@ -62,4 +62,4 @@ var Item = React.createClass({
     }
 })
 
-ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorMAD'));
+ReactDOM.render(<AuthorBox url=""/>, document.querySelector('.author'));

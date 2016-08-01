@@ -36,10 +36,10 @@ var AuthorList = React.createClass({
     render: function(){
         var comments = this.props.data.map(function(comment, index){
             if(index == 0){
-                return <ItemActive key={comment.id} author={comment.author}>{comment.text}</ItemActive>
+                return <ItemActive key={comment.id} author={comment.name}>{comment.short_description}</ItemActive>
             }
             else{
-                return <Item key={comment.id} author={comment.author}>{comment.text}</Item>
+                return <Item key={comment.id} author={comment.name}>{comment.short_description}</Item>
             }
         });
         return (
@@ -54,7 +54,7 @@ var ItemActive = React.createClass({
     render: function(){
         return (
         <div className="item active">
-            <img src="img/ProfilePicture_1.png"/>
+            <a href = "/single"><img src="img/ProfilePicture_1.png"/></a>
             <h3>
               {this.props.author}
             </h3>
@@ -70,7 +70,7 @@ var Item = React.createClass({
     render: function(){
         return (
             <div className="item">
-                <img src="img/ProfilePicture_1.png"/>
+                <a href ="/single"><img src="img/ProfilePicture_1.png"/></a>
                 <h3>
                   {this.props.author}
                 </h3>
@@ -120,10 +120,10 @@ var AuthorListCarouselVersion = React.createClass({
     render: function(){
         var comments = this.props.data.map(function(comment, index){
             if (index == 0){
-                return <ItemActive key={comment.id} author={comment.author}>{comment.text}</ItemActive>
+                return <ItemActive key={comment.id} author={comment.name}>{comment.short_description}</ItemActive>
             }
             else{
-                return <Item key={comment.id} author={comment.author}>{comment.text}</Item>
+                return <Item key={comment.id} author={comment.name}>{comment.short_description}</Item>
             }
         });
         return (
@@ -136,15 +136,15 @@ var AuthorListCarouselVersion = React.createClass({
     }
 });
 
-ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorMAD'));
-ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorWeb'));
-ReactDOM.render(<AuthorBox url="../comment.json"/>, document.querySelector('.authorC4E'));
+ReactDOM.render(<AuthorBox url="../MAD_comment.json"/>, document.querySelector('.authorMAD'));
+ReactDOM.render(<AuthorBox url="../web_comment.json"/>, document.querySelector('.authorWeb'));
+ReactDOM.render(<AuthorBox url="../c4e_comment.json"/>, document.querySelector('.authorC4E'));
 
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorMAD-medium'));
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorWeb-medium'));
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorC4E-medium'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../MAD_comment.json"/>, document.querySelector('.authorMAD-medium'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../web_comment.json"/>, document.querySelector('.authorWeb-medium'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../c4e_comment.json"/>, document.querySelector('.authorC4E-medium'));
 
 
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorMAD-small'));
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorWeb-small'));
-ReactDOM.render(<AuthorBoxCarouselVersion url="../comment.json"/>, document.querySelector('.authorC4E-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../MAD_comment.json"/>, document.querySelector('.authorMAD-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../web_comment.json"/>, document.querySelector('.authorWeb-small'));
+ReactDOM.render(<AuthorBoxCarouselVersion url="../c4e_comment.json"/>, document.querySelector('.authorC4E-small'));

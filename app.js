@@ -20,8 +20,8 @@ app.get('/',function (req,res) {
     res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
-app.get('/api/comment',function(req,res){
-  res.sendFile(path.join(__dirname+'/public/comment.json'));
+app.get('/single', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/single.html'));
 });
 
 app.listen(1337);

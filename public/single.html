@@ -6,7 +6,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>
+        <script type="text/babel" src="scripts/navbar.js"></script>
         <script type="text/babel" src="scripts/author.js"></script>
+
 
 
         <meta charset="utf-8">
@@ -23,52 +25,8 @@
         <title>Profile</title>
     </head>
     <body>
-        <section class = "navbar navbar-fixed-top">
-            <nav id="main_nav" class ="navbar navbar-inverse hidden-xs">
-                <div class="container-fluid navbar_1">
-                    <ul class = "nav navbar-nav navbar-right">
-                        <li><a href="#">TRANG CHỦ</a></li>
-                        <li><a href ="#">LIÊN HỆ</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <nav class = "navbar navbar-default ">
-                <div class="container-fluid navbar_2">
-                    <div class="navbar-header col-sm-3">
-                        <a "img-responsive navbar-brand" href="#"><img src="img/TechkidsLogo.png"></a>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-                    </div>
-                    <div class="collapse navbar-collapse navbar-right col-sm-8" id="myNavbar">
-                        <ul class = "nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Về Chúng Tôi<span class="visible-xs-inline-block caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Giới thiệu  chung</a></li>
-                                        <li><a href="#">Sứ mệnh, tầm nhìn, giá trị cốt lõi</a></li>
-                                    </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Các Khóa Học<span class="visible-xs-inline-block caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Lập Trình iOS</a></li>
-                                        <li><a href="#">Lập Trình Android</a></li>
-                                        <li><a href="#">Lập trình Full-stack Web</a></li>
-                                        <li><a href="#">Code For Everyone</a></li>
-                                        <li><a href="#">Code For Kids </a></li>
-                                    </ul>
-                            </li>
-                            <li><a href="#">Các Sự Kiện</a></li>
-                            <li><a href="#">Summer Code Camp 2016</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
+        <div id="navbar"></div>
+        
         <div class="background">
         </div>
         <section class = "profile fade">
