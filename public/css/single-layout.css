@@ -100,8 +100,7 @@
 
 .find_us{
     background-image: url('../img/background3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
     color: #f8f8f8;
     height: 69vh;
     text-align: center;

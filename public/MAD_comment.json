@@ -2,17 +2,89 @@
   { "id" : "579a1f4a260367128c232504",
     "short_description" : "Học bổng ASEAN tại Đại học quốc gia Singapore 2016 (toàn phần)",
     "content" : "Học bổng ASEAN tại Đại học quốc gia Singapore 2016 (toàn phần) <br>Giải nhì Tin học Quốc gia 2015 <br>Huy chương vàng Tin học Olympia 2015 <br>Học bổng 50% tại Đại học Deakin và Wollongong, Úc<br><br>Em biết đến Techkids chỉ một thời gian rất ngắn trước khi đăng kí học. Nếu nói là không đắn đo thì cũng không đúng, nhưng do bị ấn tượng với overview khóa học trên web với cái policy “dị” nên em đã đăng kí :v. Khi bắt đầu vào học, thực sự em chưa từng tham gia vào kiểu lớp học nào tương tự ở đây. Giảng viên (trợ giảng) dạy hay (giảng đủ kiến thức, giải đáp đầy đủ thắc mắc) mà không khí học thì thoải mái. Mới học một tháng nhưng em đã học thêm được một lượng kiến thức bổ ích, dần thay đổi thói quen học tập (học ở đây tạo “đà học” cho đứa “lười tự học” như em), có cơ hội trải nghiệm gần 1 ngày Hackathon và làm việc nhóm. Nói chung một tháng học tại Techkids là một tháng học thú vị nhất của em trong thời gian qua và em chưa thấy sai lầm (mong là không thấy =))) khi lựa chọn học tại đây :3.<br>I am really looking forward to the next part of the course!",
-    "name" : "Hoàng Dương"},
+    "name" : "Hoàng Dương",
+    "profile_src": "img/profile1.png",
+    "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "courses" : [
+        {
+            "name" : "c4e",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Code For Everyone",
+            "link" : "http://techkids.vn/khoa-hoc/code-for-everyone",
+            "content" : "Khóa học dành cho những người chưa biết gì về lập trình. Đặc biệt dành cho non-Techs (không học Công nghệ thông tin), trẻ em, phụ nữ"
+        },
+        {
+            "name" : "ios",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Khoá học Lập trình iOS",
+            "link" : "http://techkids.vn/khoa-hoc/ios",
+            "content" : "Chúng tôi không chỉ dạy về lập trình, chúng tôi mong muốn tạo ra thế hệ Lập trình viên xuất sắc!<br>Có đủ kỹ năng cần thiết để làm việc ở các công ty IT/dự án toàn cầu.<br>Tự làm sản phẩm, khởi nghiệp vừa và nhỏ"
+        }]
+    },
   {"id" : "579b0a95a5e1e52d283f2eb1",
     "short_description" : "K59 - ĐH BK HN",
     "content" : "K59 - ĐH BK HN<br>Chủ nhiệm của Câu lạc bộ Tranh biện Bách Khoa<br>Android student tại TechKids<br><br>“Tao học về Công nghệ mà học ở trường chán quá mày ạ. Đến giờ tao vẫn chẳng biết làm cái gì”<br>“Có cái khóa này hay này, đi học đi nó sẽ thay đổi cuộc đời mày đấy.”<br>“Ừ để tao xem đã”<br>Được giới thiệu về Techkids một cách “siêu hấp dẫn” (bởi đứa bạn thân mới chỉ thấy giới thiệu tuyển sinh Gen 2 của Techkids trên mạng chứ chưa đi học bao giờ ), thế là tò mò, cũng đi phỏng vấn, rồi cũng được nhận. Lúc mới học, trong đâu lúc nào cũng nghĩ “ ** sao các anh chị ở đây giỏi thế, sao các bạn học cùng giỏi thế, sao policy khắt khe thế, kém thế này sao mà theo được mọi người…”. Học tiếp được 3 tuần thì bắt đầu cảm nhận được *cuộc đời thay đổi*: 1 tuần 3 buổi học, được giáo viên support đến tận răng, nhận ra rằng hóa ra mình cũng không *ngu* như mình tưởng, có niềm tin vào bản thân hơn. Về nhà thì lại cắm mặt vào code bài tập, rồi code game để làm hackathon. Tới giờ vẫn còn nhớ cái đêm “định mệnh” ấy, nhớ cả nhóm có 2 anh em code xuyên màn đêm, nhớ những lúc tìm được bug sau 3 tiếng dậm chân tại chỗ mà suýt khóc, nhớ lúc ăn mì mà ngon hơn cả sơn hào hải vị, nhớ cả lúc thuyết trình sản phẩm và bị “tra khảo” – vừa vui lại vừa run.<br>Techkids không làm mình lập tức trở thành siêu sao, nhưng đã cho mình thấy một con đường rộng mở, cho mình thêm niềm tin để tiếp tục bước trên con đường đã chọn ấy, và mang đến cho mình những người bạn vô cùng tuyệt vời.<br>“Techkids làm cuộc đời tao thay đổi thật mày ạ.” ",
-    "name" : "Đức Nhân"},
+    "name" : "Đức Nhân",
+    "profile_src": "img/profile1.png",
+    "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "courses" : [
+        {
+            "name" : "c4e",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Code For Everyone",
+            "link" : "http://techkids.vn/khoa-hoc/code-for-everyone",
+            "content" : "Khóa học dành cho những người chưa biết gì về lập trình. Đặc biệt dành cho non-Techs (không học Công nghệ thông tin), trẻ em, phụ nữ"
+        },
+        {
+            "name" : "ios",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Khoá học Lập trình iOS",
+            "link" : "http://techkids.vn/khoa-hoc/ios",
+            "content" : "Chúng tôi không chỉ dạy về lập trình, chúng tôi mong muốn tạo ra thế hệ Lập trình viên xuất sắc!<br>Có đủ kỹ năng cần thiết để làm việc ở các công ty IT/dự án toàn cầu.<br>Tự làm sản phẩm, khởi nghiệp vừa và nhỏ"
+        }]
+    },
   {"id" : "579b0f43a5e1e52d283f2eb5",
     "short_description" : "Android developer tại FPT software",
     "content" : "Android student tại TechKids<br>Android developer tại FPT software<br><br>Chào mọi người, tôi là Trần Trung - học viên khóa Gen 3 - Lập trình Android - của TechKids. Bản thân tôi đã được rèn luyện ở TechKids được hơn 1 tháng đầu để củng cố lại kiến thức về Lập trình hướng đối tượng. Học ở TechKids thật khác biệt. Đó là những buổi Hackathon từ dạng mini Hackathon đến buổi Hackathon to nhất là để qua hết môn. Và cả quá trình học ôn lại kiến thức Lập trình hướng đối tượng nữa. Đây chính là hai điều đặc biệt nhất với cá nhân tôi. Lúc đầu, tôi chỉ biết TechKids qua mấy lần gửi thư điện tử mời học. Lúc đó, tôi cũng chẩng quan tâm lắm vì hầu như tôi thường nhận được lời mời học của các Trung tâm như FPT Aptech, VTC Academy … Và dường như tôi cũng không mấy hứng thú và có ý muốn học. Kể từ khi quan tâm mảng Lập trình di động Android, tôi mới quan tâm mình cần phải đầu tư thêm kiến thức về Lập trình Android và để xin đi làm mảng này. Bản thân tôi đã ngoài 30 tuổi, đam mê Lập trình nhưng thời gian thì không cho phép tôi học ở trung tâm lập trình quá lâu nên tôi cũng rất đắn đo khi lựa chọn Trung tâm đào tạo Lập trình. Trước đó, tôi cũng đã tham khảo nhiều Trung tâm như VTC Academy, FPT Aptech, TechMaster … Nhưng thời gian học ở đó quá lâu và học phí cũng hơi cao so với điều kiện của cá nhân tôi. Và rồi, tôi đã tìm hiểu Thông tin khóa học của TechKids (nhất là Lập trình Android). Tôi thực ra, cũng ít biết nhiều về cái tên TechKids qua 1 em học viên của TechKids trước đó. Và sau đó, tự bản thân tôi tìm hiểu thêm về Khóa học Android của TechKids. Tôi rất ấn tượng với lộ trình học và đầu ra của TechKids về khóa học. Ngoài ra, bản thân tôi cũng từng làm ở FPT Software, và cũng thích môi trường làm việc tại FSOFT.<br>Khi đọc thông tin Giảng viên Khóa Android, tôi cũng thêm tự tin và có mong muốn rằng: nếu được các anh tại FSOFT hướng dẫn, đào tạo về Android thì bản thân mình sẽ cố gắng nhiều và có mong muốn là có kiến thức chuyên môn về Android vững, sau đó thì đi làm luôn. Chính vì thời gian học, lộ trình học, đầu ra của TechKids phù hợp với cá nhân tôi nên tôi mới chọn TechKids làm nơi mình rèn luyện. Thêm nữa, sau hơn 1 tháng củng cố kiến thức Lập trình.<br>Tại TechKids, cá nhân tôi lúc đầu chưa quen, nhưng mỗi khi được “ăn hành”, nhận các task từ dễ đến khó thì sản phẩm Game của mình mới hoàn thiện hơn, sau đó mới có được sản phẩm tốt và được chấp nhận ở thực tế. Trong khi Hackathon, cá nhân tôi luôn coi những yêu cầu của Ban giám khảo là những yêu cầu có giá trị, để bản thân tôi được thử sức, nâng cao khả năng xử lý bài toán lập trình và hoàn thiện sản phẩm của mình hơn. Đội ngũ giảng viên ở TechKids có thể nói là nhiệt tình, thân thiện và có trách nhiệm với học viên :D Hôm khai giảng và bắt đầu chính thức khóa học Lập trình Android của Gen 3, máy ảo của tôi cài không được, máy ảo bị lỗi. Tôi đến sớm hẳn 1 tiếng để hỏi các thầy Trần Đức Hùng, Nguyễn Quang Huy (mặc dù các thầy chưa được ăn trưa) nhưng vẫn hỗ trợ tôi nhiệt tình và fix. Còn trong quá trình học OOP cơ bản, thầy Trần Đức Hùng cũng giải đáp giúp tôi những vấn đề liên quan code mà tôi chưa hiểu rõ, thầy còn gợi ý tôi cách giải quyết vấn đề khi xử lý vấn đề đó. (tuy các thầy ít tuổi hơn tôi, nhưng tôi vẫn tôn trọng các em và gọi trìu mến là 'thầy' :D)<br><br>Ở TechKids, không thể không nhắc tới em Hà San (em này làm tôi ấn tượng vì tên như người Nhật :D) và em Dung xinh xắn (sau này là người hỗ trợ tư vấn cho các Học viên Gen 3). Code thì luôn cần sự tập trung, tỉ mỉ và có sức khỏe tốt thì mới hoàn thành công việc code được giao. Các em Hà và em Dung luôn chăm lo cho sức khỏe, động viên cũng như nhắc nhở về sự kỷ luật khi rèn luyện tại TechKids (đây cũng thêm điểm cộng vì tôi thấy rất khác so các Trung tâm khác - trước tôi đã từng học 1 khóa PHP ở Aptech, nhưng không có sự quan tâm đặc biệt này).<br><br>Cá nhân tôi chân thành cảm ơn các thầy cô, các em gái tại TechKids cũng như gia đình tôi đã tạo điều kiện, để cá nhân tôi được theo đuổi mảng Lập trình Android. Tôi xin chúc đại gia đình TechKids sẽ phát triển hơn (có nhiều bài giảng thêm chất lượng), kỷ luật chặt chẽ hơn nữa (hiện tại vấn đề kỷ luật học tập của TechKids vậy là cũng ổn :D) để các học viên TechKids, trong đó có tôi được theo đuổi đam mê Lập trình, rèn luyện được tư duy, khả năng lập trình, nâng cao được khả năng chuyên môn, rèn được tính kỷ luật, có trách nhiệm hơn và sau đó có thể đáp ứng được nhu cầu tuyển dụng của các Công ty Phần mềm. ",
-    "name" : "Trần Trung"},
+    "name" : "Trần Trung",
+    "profile_src": "img/profile1.png",
+    "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "courses" : [
+        {
+            "name" : "c4e",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Code For Everyone",
+            "link" : "http://techkids.vn/khoa-hoc/code-for-everyone",
+            "content" : "Khóa học dành cho những người chưa biết gì về lập trình. Đặc biệt dành cho non-Techs (không học Công nghệ thông tin), trẻ em, phụ nữ"
+        },
+        {
+            "name" : "ios",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Khoá học Lập trình iOS",
+            "link" : "http://techkids.vn/khoa-hoc/ios",
+            "content" : "Chúng tôi không chỉ dạy về lập trình, chúng tôi mong muốn tạo ra thế hệ Lập trình viên xuất sắc!<br>Có đủ kỹ năng cần thiết để làm việc ở các công ty IT/dự án toàn cầu.<br>Tự làm sản phẩm, khởi nghiệp vừa và nhỏ"
+        }]
+    },
   {"id" : "579b1095a5e1e52d283f2eb8",
     "short_description" : "K57 - ĐH BK HN",
     "content" : "K57 - Chương trình Tiên tiến - Cơ điện tử - ĐH BK HN<br>Từng được học bổng toàn phần trao đổi sinh viên tại Hàn Quốc, Đài Loan và Tây Ban Nha của ĐH BK<br>Top 3, cuộc thi 3D printing technology của công ty KYODAI; Top 16 tại cuộc thi Gameloft's AI 2015<br><br>Mình là Thắng, lúc mình học ở Techkids thì mình chưa biết gì về lập trình hướng đối tượng hay Android gì cả, nhưng do may mắn + tư duy logic tốt nên tự hào là một trong những đứa code tốt nhất đầu ra (nhưng nhìn lại thằng Hùng trợ giảng nó viết game online từ lớp 11 thì chỉ muốn đập đầu xuống gối tự vẫn ).<br><br>Lúc đầu mình không có ý định học lập trình cơ, nhưng do bản tính quái dị, lại tình cờ đọc được 1 post facebook kể về quá trình phỏng vấn đầu vào 4h => mình định đến chém gió, làm quả học bổng 100% rồi bỏ không học cho bọn trung tâm nó tiếc. Phỏng vấn xong thì mình rất ấn tượng bởi sự nhiệt tình, quan tâm chân thành đến học viên (những con chuột bạch đầu tiên) của Techkids, khác xa với các kiểu quan tâm nhạt nhòa hơi có phần mơ mộng trẻ con của mấy trung tâm tiếng anh. Lúc còn đang lưỡng lự thì bị \"\"mụ\"\" San nó đa cấp, ngọt nhạt hứa hẹn cho lên kim cương với Platium, thế là đành để Techkid lèo lái nửa năm cuộc đời tiếp theo.<br><br>Điểm đặc biệt ở TechKids là ở đây bạn phải tự cố gắng, đào tạo bản thân mình liên tục, nếu cứ chờ có người giảng, giúp đỡ từng chút một thì sẽ bị các bạn cùng lớp bỏ xa => tự drop. Đây là một môi trường lý tưởng để các bạn tự học, tự phát triển các kỹ năng cần thiết, vì vừa có các bạn đồng trang lứa, vừa được sự trợ giúp nhiệt tình của các thầy cô + trợ giảng rất pro, đảm bảo level của các bạn lên nhanh chưa từng thấy.<br><br>Học xong khóa Android thì mình hơi bị .... bối rối :3 . Mình ban đầu chỉ nghĩ đến việc học để nâng cao trình độ thôi, còn mục tiêu lâu dài là đi du học. Nhưng mà học xong thì thấy một con đường mới : mình hoàn toàn có khả năng theo đuổi android và có một sự nghiệp khá tốt ( vươn lên tầm manager ở fpt chắc không đến nỗi bất khả thi nếu cố gắng ).<br><br>Nói chung là ở Techkids nó cũng nhiều cái bựa lắm, khen nhiều quá rồi chê phát. Mụ mama tổng quản ở đấy vừa xấu vừa đanh đá nhé, mọi người đến ai nó cũng bắt gọi nó bằng chị. Nhưng thôi thương tình mấy lần nấu cơm, mát xa tẩm quất phục vụ anh em Hackathon nên chỉ dừng việc nói xấu ở đây :v",
-    "name" : "Dương Thắng"}
+    "name" : "Dương Thắng",
+    "profile_src": "img/profile1.png",
+    "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "courses" : [
+        {
+            "name" : "c4e",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Code For Everyone",
+            "link" : "http://techkids.vn/khoa-hoc/code-for-everyone",
+            "content" : "Khóa học dành cho những người chưa biết gì về lập trình. Đặc biệt dành cho non-Techs (không học Công nghệ thông tin), trẻ em, phụ nữ"
+        },
+        {
+            "name" : "ios",
+            "imgSrc" : "img/fullstack.png",
+            "title" : "Khoá học Lập trình iOS",
+            "link" : "http://techkids.vn/khoa-hoc/ios",
+            "content" : "Chúng tôi không chỉ dạy về lập trình, chúng tôi mong muốn tạo ra thế hệ Lập trình viên xuất sắc!<br>Có đủ kỹ năng cần thiết để làm việc ở các công ty IT/dự án toàn cầu.<br>Tự làm sản phẩm, khởi nghiệp vừa và nhỏ"
+        }]
+    }
 ]

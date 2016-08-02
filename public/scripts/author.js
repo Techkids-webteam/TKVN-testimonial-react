@@ -47,14 +47,14 @@ var Author = React.createClass({
 var Item = React.createClass({
     render: function(){
         return (
-            <div class="row">
-                <div class="comment col-sm-6">
+            <div className="row">
+                <div className="comment col-sm-6">
                     <h2>{this.props.author}</h2>
                     <p>
                         {this.props.children}
                     </p>
                 </div>
-                <div class="picture col-sm-5">
+                <div className="picture col-sm-5">
                     <img src="img/profile1.png"/>
                 </div>
             </div>
@@ -62,4 +62,4 @@ var Item = React.createClass({
     }
 })
 
-ReactDOM.render(<AuthorBox url=""/>, document.querySelector('.author'));
+ReactDOM.render(<AuthorBox url="../MAD_comment.json"/>, document.querySelector('.authorMAD'));
