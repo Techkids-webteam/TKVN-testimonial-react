@@ -20,9 +20,61 @@ app.get('/',function (req,res) {
     res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
-app.get('/single', function(req,res) {
-  res.sendFile(path.join(__dirname+'/public/single.html'));
+//mad
+
+app.get('/hoang-duong', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/mad-author1.html'));
 });
+
+app.get('/duc-nhan', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/mad-author2.html'));
+});
+
+app.get('/tran-trung', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/mad-author3.html'));
+});
+
+app.get('/duong-thang', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/mad-author4.html'));
+});
+
+//web
+
+app.get('/hoang-duong', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/web-author1.html'));
+});
+
+app.get('/duc-nhan', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/web-author2.html'));
+});
+
+app.get('/tran-trung', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/web-author3.html'));
+});
+
+app.get('/duong-thang', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/web-author4.html'));
+});
+
+// c4e
+
+app.get('/chau-duong', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/c4e-author1.html'));
+});
+
+app.get('/minh-tien', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/c4e-author2.html'));
+});
+
+app.get('/phuong-thao', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/c4e-author3.html'));
+});
+
+app.get('/nguyen-mai', function(req,res) {
+  res.sendFile(path.join(__dirname+'/public/author/c4e-author4.html'));
+});
+
+
 
 app.listen(1337);
 console.log('1337 is the magic port!');

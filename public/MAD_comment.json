@@ -5,6 +5,7 @@
     "name" : "Hoàng Dương",
     "profile_src": "img/profile1.png",
     "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "source": "hoang-duong",
     "courses" : [
         {
             "name" : "c4e",
@@ -27,6 +28,7 @@
     "name" : "Đức Nhân",
     "profile_src": "img/profile1.png",
     "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "source": "duc-nhan",
     "courses" : [
         {
             "name" : "c4e",
@@ -49,6 +51,7 @@
     "name" : "Trần Trung",
     "profile_src": "img/profile1.png",
     "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "source": "tran-trung",
     "courses" : [
         {
             "name" : "c4e",
@@ -71,6 +74,7 @@
     "name" : "Dương Thắng",
     "profile_src": "img/profile1.png",
     "background_src" : "../img/150836_1533885582857_6969938_n.jpg",
+    "source": "duong-thang",
     "courses" : [
         {
             "name" : "c4e",
