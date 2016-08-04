@@ -108,25 +108,23 @@
 
 .comments_big .MAD_comment .author_list{;
     padding-top: 6%;
-    padding-left: 2%;
-    width: 69%;;
-    height: 280px;
+    padding-left: 10%;
 }
 
 .comments_big .MAD_comment .author_list .item{
     display: inline-block;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 5%;
     width: 163px;
 }
 
 .comments_big .MAD_comment .author_list .item img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .comments_big .MAD_comment .author_list .item p{
-    width: 68%;
-    margin-left: 16%;
+    width: 110%;
 }
 
 /*web_comment*/
@@ -157,27 +155,25 @@
 
 .comments_big .web_comment .author_list{;
     padding-top: 6%;
-    padding-left: 2%;
-    width: 69%;;
-    height: 280px;
+    padding-left: 10%;
     color: #f8f8f8;
 }
 
 .comments_big .web_comment .author_list .item{
     display: inline-block;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 5%;
     width: 163px;
 }
 
 .comments_big .web_comment .author_list .item img{
     border-radius: 50%;
+    width: 100%;
 
 }
 
 .comments_big .web_comment .author_list .item p{
-    width: 68%;
-    margin-left: 16%;
+    width: 110%;
 }
 
 /*c4e_comment*/
@@ -209,25 +205,23 @@
 
 .comments_big .c4e_comment .author_list{;
     padding-top: 6%;
-    padding-left: 2%;
-    width: 69%;;
-    height: 280px;
+    padding-left: 10%;
 }
 
 .comments_big .c4e_comment .author_list .item{
     display: inline-block;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 5%;
     width: 163px;
 }
 
 .comments_big .c4e_comment .author_list .item img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .comments_big .c4e_comment .author_list .item p{
-    width: 68%;
-    margin-left: 16%;
+    width: 110%;
 }
 
 

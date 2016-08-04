@@ -36,10 +36,10 @@ var AuthorList = React.createClass({
     render: function(){
         var comments = this.props.data.map(function(comment, index){
             if(index == 0){
-                return <ItemActive key={comment.id} author={comment.name}>{comment.short_description}</ItemActive>
+                return <ItemActive key={comment.id} image = {comment.profile_src} author={comment.name}>{comment.short_description}</ItemActive>
             }
             else{
-                return <Item key={comment.id} author={comment.name}>{comment.short_description}</Item>
+                return <Item key={comment.id} image = {comment.profile_src} author={comment.name}>{comment.short_description}</Item>
             }
         });
         return (
@@ -53,8 +53,8 @@ var AuthorList = React.createClass({
 var ItemActive = React.createClass({
     render: function(){
         return (
-        <div className="item active">
-            <a href = "/single"><img src="img/ProfilePicture_1.png"/></a>
+        <div className="col-sm-12 col-md-12 item active">
+            <a href = "/single"><img src={this.props.image}/></a>
             <h3>
               {this.props.author}
             </h3>
@@ -69,8 +69,8 @@ var ItemActive = React.createClass({
 var Item = React.createClass({
     render: function(){
         return (
-            <div className="item">
-                <a href ="/single"><img src="img/ProfilePicture_1.png"/></a>
+            <div className="col-sm-12 col-md-12 item">
+                <a href ="/single"><img src={this.props.image}/></a>
                 <h3>
                   {this.props.author}
                 </h3>
@@ -120,10 +120,10 @@ var AuthorListCarouselVersion = React.createClass({
     render: function(){
         var comments = this.props.data.map(function(comment, index){
             if (index == 0){
-                return <ItemActive key={comment.id} author={comment.name}>{comment.short_description}</ItemActive>
+                return <ItemActive key={comment.id} image = {comment.profile_src} author={comment.name}>{comment.short_description}</ItemActive>
             }
             else{
-                return <Item key={comment.id} author={comment.name}>{comment.short_description}</Item>
+                return <Item key={comment.id} image = {comment.profile_src} author={comment.name}>{comment.short_description}</Item>
             }
         });
         return (

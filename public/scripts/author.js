@@ -1,3 +1,5 @@
+// profilePicture = require('img/profile1.png');
+
 var AuthorBox = React.createClass({
     loadCommentsFromServer: function() {
         $.ajax({
@@ -34,7 +36,7 @@ var AuthorBox = React.createClass({
 var Author = React.createClass({
     render:function(){
         var comments = this.props.data.map(function(comment){
-            return <Item key = {comment.id} author = {comment.author}>{comment.content}</Item>
+            return <Item key = {comment.id} author = {comment.name} image = {comment.profile_src}>{comment.content}</Item>
         });
         return (
             <div>
@@ -55,7 +57,7 @@ var Item = React.createClass({
                     </p>
                 </div>
                 <div className="picture col-sm-5">
-                    <img src="img/profile1.png"/>
+                    <img src={this.props.image}/>
                 </div>
             </div>
         );
